@@ -1,0 +1,15 @@
+
+.skillItem{
+    padding: 1vw;
+    border-radius: 20px;
+    border:solid 5px white;
+    width: min-content;
+    margin: 0.5vw;
+    cursor: pointer;
+
+}
+img{
+width: 10rem;
+height: 10rem;
+
+}
