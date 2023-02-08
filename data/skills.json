@@ -1,0 +1,16 @@
+{
+    "skills": [
+      {"name": "CSS3", "path": "./media/img/css3.svg"},
+      {"name": "HTML5", "path": "./media/img/html5.svg"},
+      {"name": "JavaScript", "path": "./media/img/js.svg"},
+      {"name": "NodeJS", "path": "./media/img/nodejs.svg"},
+      {"name": "Photoshop", "path": "./media/img/ps.svg"},
+      {"name": "React", "path": "./media/img/react.svg"},
+      {"name": "SQL", "path": "./media/img/sql.svg"},
+      {"name": "Git", "path": "./media/img/git.svg"},
+      {"name": "Java", "path": "./media/img/java.svg"},
+      {"name": "Maven", "path": "./media/img/maven.svg"},
+      {"name": "PHP", "path": "./media/img/php.svg"},
+      {"name": "Shell", "path": "./media/img/shell.svg"}
+    ]
+}

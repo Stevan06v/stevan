@@ -1,0 +1,35 @@
+html{
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+#skillCircle{
+    margin: 10vw;
+    display: grid;
+    width: 30vw;
+}
+
+
+.skill{
+    grid-area: 1 / 1 / 2 / 2; 
+
+    transition: scale .3s;
+
+
+}
+
+.skillImage{
+    width: 5vw;
+    transition: ease 2s width;
+   
+}
+
+.skill:hover {
+    scale:1.2;
+}
+
+
+:root {
+    
+}
