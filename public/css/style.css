@@ -1,35 +1,35 @@
-html{
+html {
     padding: 0;
     margin: 0;
     width: auto;
 }
 
-#skillCircle{
-    margin: 10vw;
+#skillCircle {
+    margin: 20vw;
     display: grid;
-    width: 30vw;
+    width: 15vw;
 }
 
-
-.skill{
-    grid-area: 1 / 1 / 2 / 2; 
-
+.skill {
+    transform-origin: right;
+    grid-area: 1 / 1 / 2 / 2;
     transition: scale .3s;
-
-
+    transition: ease 0.2s scale;
 }
 
-.skillImage{
-    width: 5vw;
-    transition: ease 2s width;
-   
+#skillArea{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
 }
 
 .skill:hover {
-    scale:1.2;
+    scale: 1.1;
+}
+
+.skillImage {
+    width: 5vw;
+    cursor: pointer;
 }
 
 
-:root {
-    
-}
+:root {}

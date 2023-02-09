@@ -8,12 +8,6 @@ const PORT = 3000;
 server.use(express.static('public'));
 
 
-function read_data(type){
-    
-
-
-}
-
 
 server.get('/ok', (req,res)=>{
     console.log("ok");
@@ -26,7 +20,6 @@ server.get('/skills', (req,res)=>{
         res.send(JSON.stringify(skillset));
     });
 })
-
 
 
 server.listen(PORT,()=>{
